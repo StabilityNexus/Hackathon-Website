@@ -12,6 +12,11 @@ export const metadata: Metadata = {
   keywords:
     "blockchains, cryptocurrencies, tokens, digital assets, decentralization, unstoppability, immutability, code is law, permissionlessness",
   generator: "v0.app",
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
+  },
 }
 
 export default function RootLayout({
