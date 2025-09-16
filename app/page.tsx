@@ -144,6 +144,21 @@ export default function HackathonPage() {
           </div>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto">
+
+            {/* Stability Nexus Sponsor */}
+            <a
+              href="https://stabilitynexus.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="aspect-square bg-card border border-border rounded-lg flex items-center justify-center p-6 hover:border-primary/50 transition-colors group"
+            >
+              <img
+                src="/images/stability-nexus-logo.png"
+                alt="Stability Nexus"
+                className="w-full h-full object-contain group-hover:scale-105 transition-transform"
+              />
+            </a>
+
             {/* Alliance Sponsor */}
             <a
               href="https://alliance.org"
@@ -168,20 +183,6 @@ export default function HackathonPage() {
               <img
                 src="/images/aossie-logo.png"
                 alt="AOSSIE - Australian Open Source Software Innovation and Education"
-                className="w-full h-full object-contain group-hover:scale-105 transition-transform"
-              />
-            </a>
-
-            {/* Stability Nexus Sponsor */}
-            <a
-              href="https://stabilitynexus.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="aspect-square bg-card border border-border rounded-lg flex items-center justify-center p-6 hover:border-primary/50 transition-colors group"
-            >
-              <img
-                src="/images/stability-nexus-logo.png"
-                alt="Stability Nexus"
                 className="w-full h-full object-contain group-hover:scale-105 transition-transform"
               />
             </a>
