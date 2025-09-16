@@ -17,6 +17,29 @@ export const metadata: Metadata = {
     shortcut: "/favicon.ico",
     apple: "/favicon.ico",
   },
+  openGraph: {
+    title: "The Unstoppable Hackathon",
+    description: "48 hours of innovation, coding, and creativity, building decentralized unstoppable projects",
+    url: "https://hackathon.stability.nexus",
+    siteName: "The Unstoppable Hackathon",
+    images: [
+      {
+        url: "/unstoppable.svg",
+        width: 600,
+        height: 600,
+        alt: "The Unstoppable Hackathon",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "The Unstoppable Hackathon",
+    description: "48 hours of innovation, coding, and creativity, building decentralized unstoppable projects",
+    images: ["/unstoppable.svg"],
+  },
+
 }
 
 export default function RootLayout({
