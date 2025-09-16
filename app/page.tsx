@@ -12,7 +12,11 @@ export default function HackathonPage() {
       <nav className="fixed top-0 w-full z-50 bg-black/20 backdrop-blur-md border-b border-border">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
-            <h1 className="text-xl font-bold text-primary">The Unstoppable Hackathon</h1>
+                        <div className="flex items-center gap-3">
+              <img src="/images/unstoppable.svg" alt="Unstoppable Hackathon Logo" className="w-8 h-8" />
+              <h1 className="text-xl font-bold text-primary">The Unstoppable Hackathon</h1>
+            </div>
+
             <div className="hidden md:flex space-x-6">
               <a href="#prizes" className="text-foreground hover:text-primary transition-colors">
                 Prizes
