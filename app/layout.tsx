@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     "blockchains, cryptocurrencies, tokens, digital assets, decentralization, unstoppability, immutability, code is law, permissionlessness",
   generator: "v0.app",
   icons: {
-    icon: "/favicon.ico",
+    icon: "/images/unstoppable.svg",
     shortcut: "/favicon.ico",
     apple: "/favicon.ico",
   },
@@ -24,10 +24,11 @@ export const metadata: Metadata = {
     siteName: "The Unstoppable Hackathon",
     images: [
       {
-        url: "/unstoppable.svg",
+        url: "/images/unstoppable.svg",
         width: 600,
         height: 600,
-        alt: "The Unstoppable Hackathon",
+        alt: "The Unstoppable Hackathon Logo",
+        type: "image/svg+xml",
       },
     ],
     locale: "en_US",
@@ -37,7 +38,12 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "The Unstoppable Hackathon",
     description: "48 hours of innovation, coding, and creativity, building decentralized unstoppable projects",
-    images: ["/unstoppable.svg"],
+    images: [
+      {
+        url: "/images/unstoppable.svg",
+        alt: "The Unstoppable Hackathon Logo",
+      },
+    ],
   },
 }
 
