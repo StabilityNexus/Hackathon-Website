@@ -234,7 +234,7 @@ export default function HackathonPage() {
               className="bg-primary text-primary-foreground hover:bg-primary/90 text-lg px-8 py-6 rounded-lg font-semibold shadow-lg shadow-primary/25"
               asChild
             >
-              <a href="https://forms.gle/9Goc7nS95HNLUgE98" target="_blank" rel="noopener noreferrer">
+              <a href="https://unstop.com/o/NuI3pho?lb=zAwFhILK&utm_medium=Share&utm_source=cybrolnm5360&utm_campaign=Online_coding_challenge" target="_blank" rel="noopener noreferrer">
                 Apply to Participate
               </a>
             </Button>
