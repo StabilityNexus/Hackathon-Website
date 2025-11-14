@@ -1,7 +1,15 @@
-import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { CalendarDays, MapPin, Trophy, Users, Code, Zap, Building2 } from "lucide-react"
-import CursorTrail from "@/components/cursor-trail"
+import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import {
+  CalendarDays,
+  MapPin,
+  Trophy,
+  Users,
+  Code,
+  Zap,
+  Building2,
+} from "lucide-react";
+import CursorTrail from "@/components/cursor-trail";
 
 export default function HackathonPage() {
   return (
@@ -12,22 +20,40 @@ export default function HackathonPage() {
       <nav className="fixed top-0 w-full z-50 bg-black/20 backdrop-blur-md border-b border-border">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
-                        <div className="flex items-center gap-3">
-              <img src="/images/unstoppable.svg" alt="Unstoppable Hackathon Logo" className="w-8 h-8" />
-              <h1 className="text-xl font-bold text-primary">The Unstoppable Hackathon</h1>
+            <div className="flex items-center gap-3">
+              <img
+                src="/images/unstoppable.svg"
+                alt="Unstoppable Hackathon Logo"
+                className="w-8 h-8"
+              />
+              <h1 className="text-xl font-bold text-primary">
+                The Unstoppable Hackathon
+              </h1>
             </div>
 
             <div className="hidden md:flex space-x-6">
-              <a href="#prizes" className="text-foreground hover:text-primary transition-colors">
+              <a
+                href="#prizes"
+                className="text-foreground hover:text-primary transition-colors"
+              >
                 Prizes
               </a>
-              <a href="#sponsors" className="text-foreground hover:text-primary transition-colors">
+              <a
+                href="#sponsors"
+                className="text-foreground hover:text-primary transition-colors"
+              >
                 Sponsors
               </a>
-              <a href="#register" className="text-foreground hover:text-primary transition-colors">
+              <a
+                href="#register"
+                className="text-foreground hover:text-primary transition-colors"
+              >
                 Register
               </a>
-              <a href="#venue" className="text-foreground hover:text-primary transition-colors">
+              <a
+                href="#venue"
+                className="text-foreground hover:text-primary transition-colors"
+              >
                 Venue
               </a>
             </div>
@@ -81,7 +107,9 @@ export default function HackathonPage() {
             <h2 className="text-4xl md:text-5xl font-black mb-4 text-balance">
               Prize <span className="text-primary">Pool</span>
             </h2>
-            <p className="text-xl text-muted-foreground">Compete for amazing rewards and recognition</p>
+            <p className="text-xl text-muted-foreground">
+              Compete for amazing rewards and recognition
+            </p>
           </div>
 
           <div className="max-w-4xl mx-auto">
@@ -90,7 +118,9 @@ export default function HackathonPage() {
                 <div className="flex justify-center mb-4">
                   <Trophy className="w-16 h-16 text-primary" />
                 </div>
-                <CardTitle className="text-6xl md:text-8xl font-black text-primary mb-2">9,000 USD</CardTitle>
+                <CardTitle className="text-6xl md:text-8xl font-black text-primary mb-2">
+                  9,000 USD
+                </CardTitle>
                 <p className="text-xl text-foreground/70">Total Prize Pool</p>
               </CardHeader>
             </Card>
@@ -98,21 +128,31 @@ export default function HackathonPage() {
             <div className="grid md:grid-cols-2 gap-6">
               <Card className="bg-background border-primary/20 text-center">
                 <CardContent className="pt-6">
-                  <div className="text-3xl font-bold text-primary mb-2">6000 USD</div>
-                  <div className="text-lg font-semibold mb-2 text-foreground">As Spring of Code Stipends</div>
+                  <div className="text-3xl font-bold text-primary mb-2">
+                    6000 USD
+                  </div>
+                  <div className="text-lg font-semibold mb-2 text-foreground">
+                    As Spring of Code Stipends
+                  </div>
                   <p className="text-sm text-foreground/70">
-                    5 winners will be selected for The Stable Order's Spring of Code program.
+                    4 winners will be selected for The Stable Order's Spring of
+                    Code program.
                   </p>
                 </CardContent>
               </Card>
 
               <Card className="bg-background border-secondary/20 text-center">
                 <CardContent className="pt-6">
-                  <div className="text-3xl font-bold text-secondary mb-2">1000 USD</div>
-                  <div className="text-lg font-semibold mb-2 text-foreground">As Pull Request Prizes</div>
+                  <div className="text-3xl font-bold text-secondary mb-2">
+                    1000 USD
+                  </div>
+                  <div className="text-lg font-semibold mb-2 text-foreground">
+                    As Pull Request Prizes
+                  </div>
                   <p className="text-sm text-foreground/70">
-                    Distributed to participants based on quality and quantity of merged PRs made to the repos of the
-                    sponsoring organizations.
+                    Distributed to participants based on quality and quantity of
+                    merged PRs made to the repos of the sponsoring
+                    organizations.
                   </p>
                 </CardContent>
               </Card>
@@ -120,7 +160,8 @@ export default function HackathonPage() {
 
             <div className="mt-8 text-center space-y-2">
               <p className="text-xs text-muted-foreground">
-                * The Spring of Code will run for 12 weeks, and winners will be mentored by members of The Stable Order.
+                * The Spring of Code will run for 12 weeks, and winners will be
+                mentored by members of The Stable Order.
               </p>
               <p className="text-xs text-muted-foreground">
                 * Stipends will be transferred when projects are completed.
@@ -140,11 +181,12 @@ export default function HackathonPage() {
             <h2 className="text-4xl md:text-5xl font-black mb-4 text-balance">
               Proudly <span className="text-secondary">Sponsored</span> By
             </h2>
-            <p className="text-xl text-muted-foreground">Amazing partners making this event possible</p>
+            <p className="text-xl text-muted-foreground">
+              Amazing partners making this event possible
+            </p>
           </div>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto">
-
             {/* Stability Nexus Sponsor */}
             <a
               href="https://stabilitynexus.com"
@@ -193,7 +235,9 @@ export default function HackathonPage() {
               className="aspect-square bg-transparent border-dashed border-2 border-primary/50 hover:border-primary hover:bg-primary/10 text-primary font-semibold text-lg flex flex-col items-center justify-center gap-2 rounded-lg transition-colors"
             >
               <span className="text-2xl">+</span>
-              <span className="text-center leading-tight">Become a Sponsor</span>
+              <span className="text-center leading-tight">
+                Become a Sponsor
+              </span>
             </a>
           </div>
         </div>
@@ -207,25 +251,31 @@ export default function HackathonPage() {
               Ready to <span className="text-primary">Participate</span>?
             </h2>
             <p className="text-xl text-muted-foreground mb-8">
-              Join hundreds of developers, designers, and innovators <br /> for 30 hours of intense coding and
-              creativity.
+              Join hundreds of developers, designers, and innovators <br /> for
+              30 hours of intense coding and creativity.
             </p>
 
             <div className="grid md:grid-cols-3 gap-6 mb-8">
               <div className="flex flex-col items-center">
                 <Code className="w-12 h-12 text-primary mb-3" />
                 <h3 className="font-semibold mb-2">Code</h3>
-                <p className="text-sm text-muted-foreground">Build amazing projects</p>
+                <p className="text-sm text-muted-foreground">
+                  Build amazing projects
+                </p>
               </div>
               <div className="flex flex-col items-center">
                 <Users className="w-12 h-12 text-secondary mb-3" />
                 <h3 className="font-semibold mb-2">Collaborate</h3>
-                <p className="text-sm text-muted-foreground">Work with talented teams</p>
+                <p className="text-sm text-muted-foreground">
+                  Work with talented teams
+                </p>
               </div>
               <div className="flex flex-col items-center">
                 <Zap className="w-12 h-12 text-accent mb-3" />
                 <h3 className="font-semibold mb-2">Innovate</h3>
-                <p className="text-sm text-muted-foreground">Create the future</p>
+                <p className="text-sm text-muted-foreground">
+                  Create the future
+                </p>
               </div>
             </div>
 
@@ -234,13 +284,18 @@ export default function HackathonPage() {
               className="bg-primary text-primary-foreground hover:bg-primary/90 text-lg px-8 py-6 rounded-lg font-semibold shadow-lg shadow-primary/25"
               asChild
             >
-              <a href="https://unstop.com/o/NuI3pho?lb=zAwFhILK&utm_medium=Share&utm_source=cybrolnm5360&utm_campaign=Online_coding_challenge" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://unstop.com/o/NuI3pho?lb=zAwFhILK&utm_medium=Share&utm_source=cybrolnm5360&utm_campaign=Online_coding_challenge"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Apply to Participate
               </a>
             </Button>
 
             <p className="text-sm text-muted-foreground mt-4">
-              Registration closes on December 10, 2025 <br /> or when the maximum capacity is reached. <br /> Hurry up!
+              Registration closes on December 10, 2025 <br /> or when the
+              maximum capacity is reached. <br /> Hurry up!
             </p>
           </div>
         </div>
@@ -253,7 +308,9 @@ export default function HackathonPage() {
             <h2 className="text-4xl md:text-5xl font-black mb-4 text-balance">
               Event <span className="text-secondary">Venue</span>
             </h2>
-            <p className="text-xl text-muted-foreground">Located at the heart of Jaipur's tech ecosystem</p>
+            <p className="text-xl text-muted-foreground">
+              Located at the heart of Jaipur's tech ecosystem
+            </p>
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -270,7 +327,8 @@ export default function HackathonPage() {
                     <div>
                       <p className="font-semibold text-foreground">Address</p>
                       <p className="text-muted-foreground">
-                        Rupa ki Nangal, Post-Sumel, Via-Jamdoli, Jaipur, Rajasthan 302031
+                        Rupa ki Nangal, Post-Sumel, Via-Jamdoli, Jaipur,
+                        Rajasthan 302031
                       </p>
                     </div>
                   </div>
@@ -278,24 +336,37 @@ export default function HackathonPage() {
                   <div className="flex items-start gap-3">
                     <CalendarDays className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
                     <div>
-                      <p className="font-semibold text-foreground">Event Duration</p>
-                      <p className="text-muted-foreground">30 hours of continuous hacking</p>
+                      <p className="font-semibold text-foreground">
+                        Event Duration
+                      </p>
+                      <p className="text-muted-foreground">
+                        30 hours of continuous hacking
+                      </p>
                     </div>
                   </div>
 
                   <div className="flex items-start gap-3">
                     <Building2 className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
                     <div>
-                      <p className="font-semibold text-foreground">Facilities</p>
-                      <p className="text-muted-foreground">High-speed internet, power outlets.</p>
+                      <p className="font-semibold text-foreground">
+                        Facilities
+                      </p>
+                      <p className="text-muted-foreground">
+                        High-speed internet, power outlets.
+                      </p>
                     </div>
                   </div>
 
                   <div className="flex items-start gap-3">
                     <Users className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
                     <div>
-                      <p className="font-semibold text-foreground">Organizers</p>
-                      <p className="text-muted-foreground">Sarthak Dengre, Raj Shah, Dr. Bruno Woltzenlogel Paleo</p>
+                      <p className="font-semibold text-foreground">
+                        Organizers
+                      </p>
+                      <p className="text-muted-foreground">
+                        Dr. Bruno Woltzenlogel Paleo, Dr. Subrat Das, Raj
+                        Jitendra Shah, Rahul Harpal, Sarthak Dengre
+                      </p>
                     </div>
                   </div>
                 </CardContent>
@@ -322,9 +393,14 @@ export default function HackathonPage() {
       <footer className="py-12 px-4 border-t border-border">
         <div className="container mx-auto">
           <div className="text-center">
-            <h3 className="text-2xl font-bold text-primary mb-4">The Unstoppable Hackathon</h3>
+            <h3 className="text-2xl font-bold text-primary mb-4">
+              The Unstoppable Hackathon
+            </h3>
             <div className="flex justify-center space-x-6 mb-6">
-              <a href="https://x.com/StabilityNexus" className="text-foreground hover:text-primary transition-colors">
+              <a
+                href="https://x.com/StabilityNexus"
+                className="text-foreground hover:text-primary transition-colors"
+              >
                 Twitter
               </a>
               <a
@@ -333,17 +409,25 @@ export default function HackathonPage() {
               >
                 LinkedIn
               </a>
-              <a href="https://t.me/StabilityNexus" className="text-foreground hover:text-primary transition-colors">
+              <a
+                href="https://t.me/StabilityNexus"
+                className="text-foreground hover:text-primary transition-colors"
+              >
                 Telegram
               </a>
-              <a href="https://discord.gg/fuuWX4AbJt" className="text-foreground hover:text-primary transition-colors">
+              <a
+                href="https://discord.gg/fuuWX4AbJt"
+                className="text-foreground hover:text-primary transition-colors"
+              >
                 Discord
               </a>
             </div>
-            <p className="text-sm text-muted-foreground">© 2025 The Unstoppable Hackathon. All rights reserved.</p>
+            <p className="text-sm text-muted-foreground">
+              © 2025 The Unstoppable Hackathon. All rights reserved.
+            </p>
           </div>
         </div>
       </footer>
     </div>
-  )
+  );
 }
