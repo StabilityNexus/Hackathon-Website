@@ -207,7 +207,7 @@ export default function HackathonPage() {
               Ready to <span className="text-primary">Participate</span>?
             </h2>
             <p className="text-xl text-muted-foreground mb-8">
-              Join hundreds of developers, designers, and innovators <br /> for 48 hours of intense coding and
+              Join hundreds of developers, designers, and innovators <br /> for 30 hours of intense coding and
               creativity.
             </p>
 
@@ -279,7 +279,7 @@ export default function HackathonPage() {
                     <CalendarDays className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
                     <div>
                       <p className="font-semibold text-foreground">Event Duration</p>
-                      <p className="text-muted-foreground">48 hours of continuous hacking</p>
+                      <p className="text-muted-foreground">30 hours of continuous hacking</p>
                     </div>
                   </div>
 
