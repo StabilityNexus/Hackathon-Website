@@ -45,17 +45,17 @@ export default function HackathonPage() {
               <br /> Hackathon
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 text-pretty">
-              48 hours of innovation, coding, and creativity, <br />
+              30 hours of innovation, coding, and creativity, <br />
               building decentralized unstoppable projects.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-4">
               <div className="flex items-center gap-2 text-foreground">
                 <CalendarDays className="w-5 h-5 text-primary" />
-                <span>12th of December, 14:00 - 14th of December, 14:00</span>
+                <span>13th of December, 09:00 - 14th of December, 15:00</span>
               </div>
               <div className="flex items-center gap-2 text-foreground">
                 <MapPin className="w-5 h-5 text-secondary" />
-                <span>LNM IIT, Jaipur, India</span>
+                <span>LNMIIT, Jaipur, India</span>
               </div>
             </div>
             <p className="text-sm text-muted-foreground mb-12">
@@ -98,7 +98,7 @@ export default function HackathonPage() {
             <div className="grid md:grid-cols-2 gap-6">
               <Card className="bg-background border-primary/20 text-center">
                 <CardContent className="pt-6">
-                  <div className="text-3xl font-bold text-primary mb-2">7500 USD</div>
+                  <div className="text-3xl font-bold text-primary mb-2">6000 USD</div>
                   <div className="text-lg font-semibold mb-2 text-foreground">As Spring of Code Stipends</div>
                   <p className="text-sm text-foreground/70">
                     5 winners will be selected for The Stable Order's Spring of Code program.
@@ -108,7 +108,7 @@ export default function HackathonPage() {
 
               <Card className="bg-background border-secondary/20 text-center">
                 <CardContent className="pt-6">
-                  <div className="text-3xl font-bold text-secondary mb-2">1500 USD</div>
+                  <div className="text-3xl font-bold text-secondary mb-2">1000 USD</div>
                   <div className="text-lg font-semibold mb-2 text-foreground">As Pull Request Prizes</div>
                   <p className="text-sm text-foreground/70">
                     Distributed to participants based on quality and quantity of merged PRs made to the repos of the
@@ -234,7 +234,7 @@ export default function HackathonPage() {
               className="bg-primary text-primary-foreground hover:bg-primary/90 text-lg px-8 py-6 rounded-lg font-semibold shadow-lg shadow-primary/25"
               asChild
             >
-              <a href="https://forms.gle/9Goc7nS95HNLUgE98" target="_blank" rel="noopener noreferrer">
+              <a href="https://unstop.com/o/NuI3pho?lb=zAwFhILK&utm_medium=Share&utm_source=cybrolnm5360&utm_campaign=Online_coding_challenge" target="_blank" rel="noopener noreferrer">
                 Apply to Participate
               </a>
             </Button>
