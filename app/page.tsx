@@ -234,9 +234,22 @@ export default function HackathonPage() {
                 className="w-full h-full object-contain group-hover:scale-105 transition-transform"
               />
             </a>
+            {/* CML-BDA Sponsor */}
+            <a
+              href="https://lnmiit.ac.in/coe/cmlbda/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="aspect-square bg-card border border-border rounded-lg flex items-center justify-center p-6 hover:border-primary/50 transition-colors group"
+            >
+              <img
+                src="/images/cmlbda-logo.png"
+                alt="AOSSIE - Australian Open Source Software Innovation and Education"
+                className="w-full h-full object-contain group-hover:scale-105 transition-transform"
+              />
+            </a>
 
             {/* Become a Sponsor Button */}
-            <a
+            {/* <a
               href="mailto:sponsors@unstoppablehackathon.com"
               className="aspect-square bg-transparent border-dashed border-2 border-primary/50 hover:border-primary hover:bg-primary/10 text-primary font-semibold text-lg flex flex-col items-center justify-center gap-2 rounded-lg transition-colors"
             >
@@ -244,7 +257,7 @@ export default function HackathonPage() {
               <span className="text-center leading-tight">
                 Become a Sponsor
               </span>
-            </a>
+            </a> */}
           </div>
         </div>
       </section>
