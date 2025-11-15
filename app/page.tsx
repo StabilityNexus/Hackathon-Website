@@ -33,6 +33,12 @@ export default function HackathonPage() {
 
             <div className="hidden md:flex space-x-6">
               <a
+                href="https://docs.stability.nexus/about-us/unstoppable-hackathon"
+                className="text-foreground hover:text-primary transition-colors"
+              >
+                Handbook
+              </a>
+              <a
                 href="#prizes"
                 className="text-foreground hover:text-primary transition-colors"
               >
