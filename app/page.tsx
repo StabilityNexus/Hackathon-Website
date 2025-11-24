@@ -83,7 +83,7 @@ export default function HackathonPage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-4">
               <div className="flex items-center gap-2 text-foreground">
                 <CalendarDays className="w-5 h-5 text-primary" />
-                <span>13th of December, 09:00 - 14th of December, 15:00</span>
+                <span>13th of December, 09:00 - 14th of December, 18:00</span>
               </div>
               <div className="flex items-center gap-2 text-foreground">
                 <MapPin className="w-5 h-5 text-secondary" />
