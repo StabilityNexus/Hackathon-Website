@@ -77,13 +77,13 @@ export default function HackathonPage() {
               <br /> Hackathon
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 text-pretty">
-              30 hours of innovation, coding, and creativity, <br />
+              33 hours of innovation, coding, and creativity, <br />
               building decentralized unstoppable projects.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-4">
               <div className="flex items-center gap-2 text-foreground">
                 <CalendarDays className="w-5 h-5 text-primary" />
-                <span>13th of December, 09:00 - 14th of December, 15:00</span>
+                <span>13th of December, 09:00 - 14th of December, 18:00</span>
               </div>
               <div className="flex items-center gap-2 text-foreground">
                 <MapPin className="w-5 h-5 text-secondary" />
@@ -271,7 +271,7 @@ export default function HackathonPage() {
             </h2>
             <p className="text-xl text-muted-foreground mb-8">
               Join hundreds of developers, designers, and innovators <br /> for
-              30 hours of intense coding and creativity.
+              33 hours of intense coding and creativity.
             </p>
 
             <div className="grid md:grid-cols-3 gap-6 mb-8">
@@ -359,7 +359,7 @@ export default function HackathonPage() {
                         Event Duration
                       </p>
                       <p className="text-muted-foreground">
-                        30 hours of continuous hacking
+                        33 hours of continuous hacking
                       </p>
                     </div>
                   </div>
