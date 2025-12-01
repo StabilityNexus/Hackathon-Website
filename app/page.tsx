@@ -125,7 +125,7 @@ export default function HackathonPage() {
                   <Trophy className="w-16 h-16 text-primary" />
                 </div>
                 <CardTitle className="text-6xl md:text-8xl font-black text-primary mb-2">
-                  11,000 USD
+                  9,000 USD
                 </CardTitle>
                 <p className="text-xl text-foreground/70">Total Prize Pool</p>
               </CardHeader>
