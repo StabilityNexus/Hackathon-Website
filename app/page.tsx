@@ -192,72 +192,48 @@ export default function HackathonPage() {
             </p>
           </div>
 
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto">
-            {/* Stability Nexus Sponsor */}
-            <a
-              href="https://stabilitynexus.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="aspect-square bg-card border border-border rounded-lg flex items-center justify-center p-6 hover:border-primary/50 transition-colors group"
-            >
-              <img
-                src="/images/stability-nexus-logo.png"
-                alt="Stability Nexus"
-                className="w-full h-full object-contain group-hover:scale-105 transition-transform"
-              />
-            </a>
-
-            {/* Alliance Sponsor */}
-            <a
-              href="https://alliance.org"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="aspect-square bg-card border border-border rounded-lg flex items-center justify-center p-6 hover:border-primary/50 transition-colors group"
-            >
-              <img
-                src="/images/alliance-logo.png"
-                alt="Alliance"
-                className="w-full h-full object-contain group-hover:scale-105 transition-transform"
-              />
-            </a>
-
-            {/* AOSSIE Sponsor */}
-            <a
-              href="https://aossie.org"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="aspect-square bg-card border border-border rounded-lg flex items-center justify-center p-6 hover:border-primary/50 transition-colors group"
-            >
-              <img
-                src="/images/aossie-logo.png"
-                alt="AOSSIE - Australian Open Source Software Innovation and Education"
-                className="w-full h-full object-contain group-hover:scale-105 transition-transform"
-              />
-            </a>
-            {/* CML-BDA Sponsor */}
-            <a
-              href="https://lnmiit.ac.in/coe/cmlbda/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="aspect-square bg-card border border-border rounded-lg flex items-center justify-center p-6 hover:border-primary/50 transition-colors group"
-            >
-              <img
-                src="/images/cmlbda-logo.png"
-                alt="AOSSIE - Australian Open Source Software Innovation and Education"
-                className="w-full h-full object-contain group-hover:scale-105 transition-transform"
-              />
-            </a>
-
-            {/* Become a Sponsor Button */}
-            {/* <a
-              href="mailto:sponsors@unstoppablehackathon.com"
-              className="aspect-square bg-transparent border-dashed border-2 border-primary/50 hover:border-primary hover:bg-primary/10 text-primary font-semibold text-lg flex flex-col items-center justify-center gap-2 rounded-lg transition-colors"
-            >
-              <span className="text-2xl">+</span>
-              <span className="text-center leading-tight">
-                Become a Sponsor
-              </span>
-            </a> */}
+          <div className="grid grid-cols-2 md:grid-cols-5 gap-8 max-w-5xl mx-auto items-center">
+            {[
+              {
+                name: "Stability Nexus",
+                href: "https://stabilitynexus.com",
+                src: "/images/stability-nexus-logo.png",
+              },
+              {
+                name: "Alliance",
+                href: "https://alliance.org",
+                src: "/images/alliance-logo.png",
+              },
+              {
+                name: "AOSSIE",
+                href: "https://aossie.org",
+                src: "/images/aossie-logo.png",
+              },
+              {
+                name: "CML-BDA",
+                href: "https://lnmiit.ac.in/coe/cmlbda/",
+                src: "/images/cmlbda-logo.png",
+              },
+              {
+                name: "Ergo Platform",
+                href: "https://ergoplatform.org/en/",
+                src: "/images/ergo-erg-logo.png",
+              },
+            ].map((sponsor) => (
+              <a
+                key={sponsor.name}
+                href={sponsor.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="aspect-square bg-card border border-border rounded-xl flex items-center justify-center p-6 shadow-sm hover:shadow-md hover:border-primary/60 transition-all group"
+              >
+                <img
+                  src={sponsor.src}
+                  alt={sponsor.name}
+                  className="max-w-[80%] max-h-[80%] object-contain group-hover:scale-105 transition-transform duration-200"
+                />
+              </a>
+            ))}
           </div>
         </div>
       </section>
