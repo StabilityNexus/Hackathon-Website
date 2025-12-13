@@ -373,7 +373,7 @@ export default function HackathonPage() {
                 src="https://www.google.com/maps?q=The%20LNM%20Institute%20of%20Information%20Technology,%20Via%20Jamdoli,%20Jaipur&amp;output=embed"
                 width="100%"
                 height="100%"
-                style={{ border: 0 }}
+                className="border-0"
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
