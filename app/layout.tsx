@@ -8,7 +8,7 @@ import "./globals.css"
 
 export const metadata: Metadata = {
   title: "The Unstoppable Hackathon",
-  description: "48 hours of innovation, coding, and creativity, building decentralized unstoppable projects",
+  description: "33 hours of innovation, coding, and creativity, building decentralized unstoppable projects",
   keywords:
     "blockchains, cryptocurrencies, tokens, digital assets, decentralization, unstoppability, immutability, code is law, permissionlessness",
   generator: "v0.app",
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "The Unstoppable Hackathon",
-    description: "48 hours of innovation, coding, and creativity, building decentralized unstoppable projects",
+    description: "33 hours of innovation, coding, and creativity, building decentralized unstoppable projects",
     url: "https://hackathon.stability.nexus",
     siteName: "The Unstoppable Hackathon",
     images: [
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "The Unstoppable Hackathon",
-    description: "48 hours of innovation, coding, and creativity, building decentralized unstoppable projects",
+    description: "33 hours of innovation, coding, and creativity, building decentralized unstoppable projects",
     images: [
       {
         url: "/images/unstoppable.svg",
