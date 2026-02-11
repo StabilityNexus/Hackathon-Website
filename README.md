@@ -1,30 +1,52 @@
-# Hackathon landing page
-
-*Automatically synced with your [v0.app](https://v0.app) deployments*
-
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/ceilicans-projects/v0-hackathon-landing-page)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/projects/TosbsHGjhxo)
+# Hackathon Website
 
 ## Overview
+This repository contains the official website for the Unstoppable Hackathon, providing event information, schedules, guidelines, and resources for participants.
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+## Tech Stack
+- **Framework**: Next.js
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **UI Components**: Component-based UI (see `components/ui`)
+- **Deployment**: Vercel (based on repository configuration)
 
-## Deployment
 
-Your project is live at:
+## Setup
+To run the project locally:
 
-**[https://vercel.com/ceilicans-projects/v0-hackathon-landing-page](https://vercel.com/ceilicans-projects/v0-hackathon-landing-page)**
+```bash
+git clone https://github.com/StabilityNexus/Hackathon-Website.git
+cd Hackathon-Website
+npm install
+npm run dev
+```
 
-## Build your app
+The application will be available at `http://localhost:3000`.
 
-Continue building your app on:
+## Usage
+- **Development**: Run `npm run dev` to start the development server
+- **Build**: Run `npm run build` to create a production build
+- **Start**: Run `npm start` to start the production server
+- **Lint**: Run `npm run lint` to check code quality
 
-**[https://v0.app/chat/projects/TosbsHGjhxo](https://v0.app/chat/projects/TosbsHGjhxo)**
+## Project Structure
+```
+app/              - Next.js app directory with pages and layouts
+components/       - Reusable React components
+  ui/            - UI component library
+lib/             - Utility functions and helpers
+public/          - Static assets and images
+styles/          - Global styles
+```
 
-## How It Works
+## Project Maturity
+- ✅ Core website structure implemented
+- ✅ Basic pages and navigation available
+- ⬜ Mobile responsiveness fully reviewed
+- ⬜ SEO optimization completed
+- ⬜ Accessibility audit completed
+- ⬜ Production deployment verified
 
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+## Contributing
+Contributions are welcome! Please feel free to submit issues or pull requests to improve the website.
+
